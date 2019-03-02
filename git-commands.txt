@@ -1,3 +1,5 @@
+Comandos do Git
+
 git init: 
 	- Inicializa o repositório
 
@@ -63,3 +65,12 @@ git checkout <nome do branch>:
 git branch -D <nome do branch>:
 	- Deleta o branch
 
+git merge <nome do branch>:
+	- Junta o branch ao master pelo método 'merge'
+	Merge: o merge cria um commit a mais que é responsavel por juntar os branchs,
+	ele também cria uma estrutura ciclíca
+
+git rebase <nome do branch>:
+	- Junta o branch ao master pelo método 'rebase'
+	Rebase: o rebase exclue os commits do branch, é cria outros correspondentes no master,
+	a estrutura criada por ele é linear
