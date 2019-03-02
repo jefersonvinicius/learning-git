@@ -1,0 +1,5 @@
+git init: Inicializa o repositório
+git status: Da informações sobre o estado do repositório
+git add <nome arquivo>: 
+	- adiciona o arquivo no estado 'Untracked' no repositório
+	- muda o estado do arquivo de 'Modified' para 'Stage'
