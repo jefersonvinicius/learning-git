@@ -3,3 +3,4 @@ git status: Da informações sobre o estado do repositório
 git add <nome arquivo>: 
 	- adiciona o arquivo no estado 'Untracked' no repositório
 	- muda o estado do arquivo de 'Modified' para 'Stage'
+git commit -m "Mensage": realiza o commit do repositório passando uma mensagem do que foi feito
