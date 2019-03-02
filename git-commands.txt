@@ -22,3 +22,14 @@ git diff:
 
 git show <código do commit>:
 	- mostra as mudanças feitas naquele commit
+
+git checkout <nome do arquivo>:
+	- discarta as mudanças feitas no arquivo no estado 'Modified'
+
+git reset HEAD <nome do arquivo>:
+	- retorna um arquivo no modo 'Staged' para o modo 'Modified'
+	Parâmetros no lugar no HEAD:
+		* --soft: volta o arquivo para o modo 'Staged'
+		* --mixed: volta o arquivo para o modo 'Modified'
+		* --hard: mata o commit e todas as suas mudanças
+
