@@ -19,3 +19,6 @@ git diff:
 	- mostra as mudanças feitas nos arquivos
 	Parâmetros:
 		* --name-only: mostra apenas os nomes dos arquivos modificados
+
+git show <código do commit>:
+	- mostra as mudanças feitas naquele commit
