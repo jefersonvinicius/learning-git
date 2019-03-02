@@ -1,9 +1,16 @@
-git init: Inicializa o repositório
-git status: Da informações sobre o estado do repositório
+git init: 
+	- Inicializa o repositório
+
+git status:
+	-Da informações sobre o estado do repositório
+
 git add <nome arquivo>: 
 	- adiciona o arquivo no estado 'Untracked' no repositório
 	- muda o estado do arquivo de 'Modified' para 'Stage'
-git commit -m "Mensagem": realiza o commit do repositório passando uma mensagem do que foi feito
+
+git commit -m "Mensagem":
+	- realiza o commit do repositório passando uma mensagem do que foi feito
+	
 git log:
 	- mostra o todos os commits realizados
 	Parâmetros:
@@ -36,6 +43,23 @@ git reset HEAD <nome do arquivo>:
 git remote add origin <endereço do github>:
 	- conecta o repositório a um repositório remoto
 
-git push -u <destino> master:
+git push -u <destino> <branch> ou git push:
 	- Envia os arquivos do repositório para o repositório remoto
+
+git clone <link do repositório> <novo nome da pasta>:
+	- Clona um repositório remoto para máquina local
+
+Branchs
+
+git checkout -b <nome branch>:
+	- Cria um novo branch
+
+git branch
+	- Mostra o branch ativo
+
+git checkout <nome do branch>:
+	- Altera o branch ativo
+
+git branch -D <nome do branch>:
+	- Deleta o branch
 
