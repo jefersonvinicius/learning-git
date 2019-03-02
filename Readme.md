@@ -1,6 +1,6 @@
 Repositório teste para aprender git e github.
 
-#Comandos do Git
+# Comandos do Git
 
 git init: 
 	- Inicializa o repositório
@@ -53,7 +53,7 @@ git push -u <destino> <branch> ou git push:
 git clone <link do repositório> <novo nome da pasta>:
 	- Clona um repositório remoto para máquina local
 
-##Branchs
+## Branchs
 
 git checkout -b <nome branch>:
 	- Cria um novo branch
