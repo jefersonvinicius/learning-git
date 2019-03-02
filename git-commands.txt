@@ -14,3 +14,8 @@ git shortlog:
 	- mostra os commits ordenados por autores
 	Parâmetros:
 		* -sn: mostra a quantidade de commits por autor
+
+git diff:
+	- mostra as mudanças feitas nos arquivos
+	Parâmetros:
+		* --name-only: mostra apenas os nomes dos arquivos modificados
