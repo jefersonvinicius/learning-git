@@ -3,4 +3,14 @@ git status: Da informações sobre o estado do repositório
 git add <nome arquivo>: 
 	- adiciona o arquivo no estado 'Untracked' no repositório
 	- muda o estado do arquivo de 'Modified' para 'Stage'
-git commit -m "Mensage": realiza o commit do repositório passando uma mensagem do que foi feito
+git commit -m "Mensagem": realiza o commit do repositório passando uma mensagem do que foi feito
+git log:
+	- mostra o todos os commits realizados
+	Parâmetros:
+		* --author="Nome": filtra os commits pela pessoa que os fez
+		* --graph: mostra os commits de forma gráfica
+
+git shortlog:
+	- mostra os commits ordenados por autores
+	Parâmetros:
+		* -sn: mostra a quantidade de commits por autor
