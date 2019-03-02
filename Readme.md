@@ -1,1 +1,1 @@
-Repositório teste para apreder git e github.
+Repositório teste para aprender git e github.
