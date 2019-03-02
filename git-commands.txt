@@ -33,3 +33,9 @@ git reset HEAD <nome do arquivo>:
 		* --mixed: volta o arquivo para o modo 'Modified'
 		* --hard: mata o commit e todas as suas mudanças
 
+git remote add origin <endereço do github>:
+	- conecta o repositório a um repositório remoto
+
+git push -u <destino> master:
+	- Envia os arquivos do repositório para o repositório remoto
+
