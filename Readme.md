@@ -72,3 +72,12 @@
 `git rebase <nome do branch>`
 	- Junta o branch ao master pelo método 'rebase'
 	> Rebase: o rebase exclue os commits do branch, é cria outros correspondentes no master, a estrutura criada por ele é linear
+
+
+## Remote
+
+`git remote -v`
+	- mostra a url do repositório remoto
+
+`git remote set-url origin <nova url>`
+	- configura uma nova url
